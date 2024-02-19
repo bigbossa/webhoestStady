@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
+
+
+body{
+    background-color: #FBBCE5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karma', serif;
+    }
+
+
+header{
+    background-color: #E76ABB;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.h1title{
+    margin-left: 10px;
+    color: #fdfdfd;
+}
+
+.menu{
+    display: flex ; 
+    list-style: none;
+}
+
+li{
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-con{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 1000px;
+}
+
+.Card{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 30px 0px;
+}
+.img{
+    width: 100%;
+}
+
+.button{
+    color: aliceblue;
+    background-color: #F556BE;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.text-param{
+    font-weight: 100;
+}
+
+footer{
+    background-color: #E76ABB;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}

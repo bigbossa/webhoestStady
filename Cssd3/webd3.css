@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------------------header-------------------------- */
+
+header{
+    background-color: #FA00FF;
+}
+
+nav{
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 48px;
+    margin: auto;
+}
+
+.logo{
+    font-size: 24px;
+    display: flex;
+    align-items: center; 
+    text-transform: uppercase;
+}
+
+.menu{
+    display: flex ; 
+    list-style: none;
+    font-size: 16px;
+}
+
+li{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ------------------------Hero Section=============================== */
+
+.hero{
+    background-color: #FEDAFF;
+    width: 1100px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.herobg{
+    background-color: #FEDAFF;
+}
+.herotextbox{
+    /* margin: auto; */
+
+}
+
+.herobutton{
+    margin: auto;
+    align-items: center;
+    display: flex;
+
+}
+
+.herobuttonStarted{
+    background-color: #FA00FF;
+    width: 138px;
+    border-radius: 70px ;
+    text-align: center; 
+    
+}
+
+.herobuttonwatch{
+    align-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+.watch{
+    
+}
+.Play{
+    
+}
+.hero-img{
+margin: 15px;
+padding: 15px;
+width: 518px;x
+
+}
+
+/* ----------------------End Hero Section--------------------- */
+
+/* ------------------------ End header ------------------------ */
+.pricingmain{
+    background-color: #FA6CFE;
+    height: 600px;
+    }
+    
+    .pricing{
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .box{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 1100px;
+    }
+    .card1{
+        background-color: white;
+        width: 320px;
+        height: 400px;
+        box-shadow: 0 10px 10px rgba(0,0,0,.5);
+         
+    }
+
+    .boxp{
+        align-items: center;
+        margin: 40PX;
+        text-align: left;
+        color: rgb(16, 16, 150);
+        line-height: 50px;
+        
+    }
+
+    .dollar{
+        margin: 20PX;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .freeplan{
+        text-align: left;  
+        margin: 20px; 
+        line-height: 1px; 
+        font-size: 14px;
+    }
+    /* <!-- --------------------------Member------------------------------> */
+    .membermain{
+        background-color: #FEDAFF;
+        padding: 50px;
+    }
+    .boxmember{
+        margin: auto;
+        background-color: #ffffff;
+        width: 1100px;
+        height: 300px;
+        box-shadow: 0 10px 10px rgba(0,0,0,.5);
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .tablemember{
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    table{
+        border-radius: 10px;
+        width: 550px;
+        border-color: #867986;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: rgba(185, 173, 173, 0.247);
+        border-style: groove;
+    }
+    td{
+        text-align: center;
+    }
+    /*----------------------- Contact -------------------------*/
+    .Contactmain{
+        background-color: #ffffff;
+        height: 600px;
+    }
+    .boxcontact{
+        margin: auto;
+        background-color: #ffffff;
+        width: 1200px;
+        height:600px;
+        text-align: center;
+        padding: 20px;
+    }
+    .card2{
+        padding: 40px;
+        align-items: center;   
+    }
+    .ynye{
+        display: flex;
+        justify-content: space-between;
+    }
+    .yourname{
+        text-align: left;
+    
+    }
+    .youremail{
+        text-align: left;
+    
+    }
+    .subject{
+        text-align: left;
+    }
+    .message{
+        text-align: left;
+
+    }
+    .sendmessage{
+        
+        margin: auto;
+        background-color: #FA00FF;
+        width: 138px;
+        border-radius: 70px ;
+        text-align: center; 
+        
+        
+    }
+
+    /* ---------------footer--------------- */
+    footer{
+        padding: 20px;
+        font-size: 16px;
+        background-color: #FA00FF;
+        text-align: center;
+        color: #000000;
+        
+    }

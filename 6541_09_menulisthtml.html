@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+          $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true
+          });  
+        });
+      </script>
+
+    <style>
+
+        body{
+            margin: 0px;
+            margin: 0px;
+        }
+        header{
+            padding: 12px;
+            margin: auto;
+            width: 100%;
+            height: 90px;
+            background-color: #9C241C;
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            margin: auto;
+            width: 65%;
+            height: 80px;
+            background-color: #9C241C;
+            display: flex;
+            justify-content: space-between;
+        }
+        .menutop{
+            position: absolute;
+            left: 70rem;
+            margin: auto;
+            display: flex;
+            width: 100%;
+            margin: auto;
+            align-items: center; 
+            
+        }
+        nav{
+            background-color: #400C0C;
+            padding: 5px 5px;
+            align-items: center;
+            text-align: center;
+            
+        }
+        ul{
+            height: 30px;
+            margin: auto;
+            width: 70%;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            list-style: none;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+        }
+      
+        .slick-slider{
+            height: 25rem;
+        }  
+        .hero{
+            background-color: rgb(214, 214, 214);
+            height: 30rem;
+        }
+        .menuhero{
+            position: absolute;
+            top: 53rem;
+            left: 45rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img class="no1" src="img/logo.png" alt="">
+        <div class="menutop">
+        <img class="no2" src="img/hr-2.png" alt="">
+        <img class="no3" src="img/en-1.png" alt="">
+        <img class="no4"src="img/ch-1.png" alt="">
+    </div>
+    </div>
+    </header>
+    <nav>
+    <ul>
+        <li>เกี่ยวกับมหาลัย</li>
+        <li>ข่าว</li>
+        <li>หน่วยงาน</li>
+        <li>ระบบสารสนเทศ</li>
+        <li>Our Services</li>
+        <li>การจัดอันดับมหาวิทยาลัย</li>
+        <li>ติดต่อ</li>
+        <li>ติดต่อ</li>
+        <li>Internet Login</li>
+    </ul>
+</nav>
+<div class="slick-slider">
+    <div class="multiple-items">
+      <img src="img/banner1.jpg">
+      <img src="img/banner2.jpg">
+      <img src="img/banner3.jpg">  
+    </div>
+  </div>
+  <!-- ======================================================== -->
+  <div class="hero">
+    <div class="menuhero">
+    <img src="img/icon-1.png" alt="">
+    <img src="img/icon-2.png" alt="">
+    <img src="img/icon-3.png" alt="">
+    <img src="img/icon-4.png" alt="">
+  </div></div>
+<footer>
+    <a href="index.html">Back to home</a>
+</footer>
+</body>
+</html>

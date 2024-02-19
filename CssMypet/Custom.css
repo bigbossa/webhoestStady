@@ -1,0 +1,25 @@
+body{
+    margin: 20px 20px 50px 20px;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+a{
+    color: aliceblue;
+    background-color: #F556BE;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th{
+    background-color: #96D4D4;
+    text-align: center;
+  }
+  td{
+    background-color: #96D4D4;
+  }

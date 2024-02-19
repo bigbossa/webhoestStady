@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromes</title>
+</head>
+<body>
+    <h1 class="text-uppercase">fromes</h1>
+    <hr size="10" color="pink">
+    <form>
+        <fieldset>
+            <legend>Text fiel</legend>
+            <label for="fname">Frist name</label>
+            <input type="text" id="fname" name="name">
+<br><br>
+            <label for="lastname">lastname</label>
+            <input type="text">
+<br><br>
+            <label for="email">email</label>
+            <input type="text">
+<br><br>
+            <label for="age">age</label>
+            <input type="text">
+<br><br>
+            <label for="age2">age2</label>
+            <input type="number">
+<br><br>
+            <label for="bd">bd</label>
+            <input type="date">            
+        </fieldset>
+
+    </form>
+<br><br>
+<div style="background-color: rgb(164, 222, 163);">
+    <p>เรียน</p>
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: aquamarine;">
+
+            <legend>Text fiel 2</legend>
+            <label for="firstname">Frist name</label>
+            <input type="text" id="firstname" name="input_name">
+
+<br><br>
+
+            <label for="mail" >email</label>
+            <input type="email" id="mail" name="input_email">
+
+            <br><br>
+
+            <input type="submit" value="นอนยัน">
+         
+        </fieldset>
+
+    </form>
+
+    <br><br>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+
+        <fieldset style="background-color: rgb(235, 100, 167);">
+            <legend>Radio Buttons</legend>
+            <label for="male"> เพศ : </label>
+            <input type="radio" id="male" name="input_gender" value="male">
+            <label for="">ชาย</label>
+            <input type="radio" id="female" name="input_gender" value="female">
+            <label for="female">หญิง</label>
+            <!-- <legend>Radio Buttons</legend>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label> -->
+
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+
+        <br><br>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+
+        <fieldset style="background-color: blueviolet;">   
+            <legend>Checkboxes</legend>
+            <p>Choose Favarite web Language</p>
+            <input type="checkbox" id="html" name="f-language1" value="html">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="f-language2" value="css">
+            <label for="css">Css</label><br>
+            <input type="checkbox" id="javascript" name="f-language3" value="JavaScript">
+            <label for="JavaScript">JavaScript</label><br>
+
+            <br><br>
+            <input type="submit" value="นอนยัน">
+
+        </fieldset>
+
+    </form>
+<br><br>
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+
+        <fieldset style="background-color: aqua;">
+            <legend>Drop Down List</legend>
+            <p>Choose Your Province</p>
+            <!-- <select name="province" id="province" size="5" multiple></select> -->
+                <select name="province" id="province">
+                <option value="Kanchanaburi"id="province">กาญจนบุรี</option>
+                <option value="Ratchaburi"id="province">ราชบุรี</option>
+                <option value="Nakornpathom"id="province">นครปฐม</option>
+                <option value="Bangkok"id="province">กรุงเทพ</option>
+              </select>
+              <br><br>
+              <input type="submit" name="" id="">
+        </fieldset>
+    </form>
+    <br><br>
+
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: bisque;">
+            <legend>Data List</legend>
+           <!-- <p>กรุณาพิมพ์เบราเซอร์ที่เคยใช้</p> -->
+            <label for="browser">กรุณาพิมพ์เบราเซอร์ที่เคยใช้:</label>
+            <input list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist> 
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: blue;">
+            <legend>Text Area</legend>
+            <label for="address">Address</label><br>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit" >
+            <input type="reset" value="ล้างข้อมูล">
+        </fieldset>
+    </form>
+<br><br> 
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: cadetblue;">
+            <legend> Color </legend>
+            <label for="Color">Choose Color</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+        <fieldset style="background-color: chartreuse;">
+            <legend>Uplond</legend>
+            <label for="Uplond">Choose File</label>
+            <input type="file" id="uplond" name="uplond">
+        </fieldset>
+    </form>
+<br><br>
+<form action="https://itmember166.000webhostapp.com/process_form.php" method="post">
+    <fieldset style="background-color: chocolate;">
+        <legend>button</legend>
+        <input type="submit"><br><br>
+        <input type="submit" value="submit input"><br><br>
+        <button type="submit">submit buttom</button><br>
+        <p>reset</p>
+        <input type="reset"><br><br>
+        <input type="reset" value="reset input"><br><br>
+        <button type="reset">reset button</button><br>
+<br><br>
+<a href="index.html">
+        <input type="button" value="Gooo to home">
+    </a>
+    <a href="index.html"><button type="button">home</button></a>
+    </fieldset>
+</form>
+
+
+</div>
+    <br><br>
+    <form action="" method="get">
+        <fieldset>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        <fieldset>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
